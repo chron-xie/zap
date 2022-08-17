@@ -50,9 +50,15 @@ const (
 	PanicLevel
 	// FatalLevel logs a message, then calls os.Exit(1).
 	FatalLevel
+	// trace msg level
+  SpanLevel
+  // trace msg level
+  SegLevel
+  // trace msg level
+  StateLevel
 
 	_minLevel = DebugLevel
-	_maxLevel = FatalLevel
+	_maxLevel = StateLevel
 
 	// InvalidLevel is an invalid value for Level.
 	//
@@ -126,6 +132,12 @@ func (l Level) String() string {
 		return "panic"
 	case FatalLevel:
 		return "fatal"
+  case StateLevel:
+    return "STATE"
+  case SegLevel:
+    return "SEG"
+  case SpanLevel:
+    return "SPAN"
 	default:
 		return fmt.Sprintf("Level(%d)", l)
 	}
@@ -150,6 +162,12 @@ func (l Level) CapitalString() string {
 		return "PANIC"
 	case FatalLevel:
 		return "FATAL"
+  case StateLevel:
+    return "STATE"
+  case SegLevel:
+    return "SEG"
+  case SpanLevel:
+    return "SPAN"
 	default:
 		return fmt.Sprintf("LEVEL(%d)", l)
 	}
