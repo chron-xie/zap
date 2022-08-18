@@ -26,7 +26,7 @@ import (
 	"github.com/chron-xie/zap/internal/exit"
 	"github.com/chron-xie/zap/internal/ztest"
 	"github.com/chron-xie/zap/zapcore"
-	"github.com/chron-xie/zaptest/observer"
+	"github.com/chron-xie/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

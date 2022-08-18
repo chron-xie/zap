@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/chron-xie/zap/zapcore"
-	"github.com/chron-xie/zaptest/observer"
+	"github.com/chron-xie/zap/zaptest/observer"
 )
 
 func newLoggedEntry(level zapcore.Level, msg string, fields ...zapcore.Field) observer.LoggedEntry {

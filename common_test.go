@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/chron-xie/zap/zapcore"
-	"github.com/chron-xie/zaptest/observer"
+	"github.com/chron-xie/zap/zaptest/observer"
 )
 
 func opts(opts ...Option) []Option {

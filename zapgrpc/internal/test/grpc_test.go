@@ -28,7 +28,7 @@ import (
 	"github.com/chron-xie/zap"
 	"github.com/chron-xie/zap/zapcore"
 	"github.com/chron-xie/zap/zapgrpc"
-	"github.com/chron-xie/zaptest/observer"
+	"github.com/chron-xie/zap/zaptest/observer"
 	"google.golang.org/grpc/grpclog"
 )
 

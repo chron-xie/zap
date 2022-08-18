@@ -26,7 +26,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/chron-xie/zaptest/observer"
+	"github.com/chron-xie/zap/zaptest/observer"
 )
 
 type constantClock time.Time

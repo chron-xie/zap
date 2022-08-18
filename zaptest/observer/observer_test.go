@@ -29,7 +29,7 @@ import (
 
 	"github.com/chron-xie/zap"
 	"github.com/chron-xie/zap/zapcore"
-	. "github.com/chron-xie/zaptest/observer"
+	. "github.com/chron-xie/zap/zaptest/observer"
 )
 
 func assertEmpty(t testing.TB, logs *ObservedLogs) {
