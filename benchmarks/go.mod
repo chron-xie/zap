@@ -1,4 +1,4 @@
-module github.com/chron-xie/benchmarks
+module github.com/chron-xie/zap/benchmarks
 
 go 1.17
 

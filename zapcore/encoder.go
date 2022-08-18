@@ -25,7 +25,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/chron-xie/buffer"
+	"github.com/chron-xie/zap/buffer"
 )
 
 // DefaultLineEnding defines the default line ending when writing logs.

@@ -1,4 +1,4 @@
-module github.com/chron-xie/zapgrpc/internal/test
+module github.com/chron-xie/zap/zapgrpc/internal/test
 
 go 1.17
 

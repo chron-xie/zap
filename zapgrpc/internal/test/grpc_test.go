@@ -27,7 +27,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/chron-xie/zap"
 	"github.com/chron-xie/zap/zapcore"
-	"github.com/chron-xie/zapgrpc"
+	"github.com/chron-xie/zap/zapgrpc"
 	"github.com/chron-xie/zaptest/observer"
 	"google.golang.org/grpc/grpclog"
 )

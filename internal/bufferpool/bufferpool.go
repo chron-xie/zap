@@ -22,7 +22,7 @@
 // packages can recreate the same functionality with buffers.NewPool.
 package bufferpool
 
-import "github.com/chron-xie/buffer"
+import "github.com/chron-xie/zap/buffer"
 
 var (
 	_pool = buffer.NewPool()

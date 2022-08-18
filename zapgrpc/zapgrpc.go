@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 // Package zapgrpc provides a logger that is compatible with grpclog.
-package zapgrpc // import "github.com/chron-xie/zapgrpc"
+package zapgrpc // import "github.com/chron-xie/zap/zapgrpc"
 
 import (
 	"fmt"

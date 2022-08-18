@@ -27,7 +27,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/chron-xie/buffer"
+	"github.com/chron-xie/zap/buffer"
 	"github.com/chron-xie/zap/internal/bufferpool"
 )
 

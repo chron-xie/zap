@@ -25,7 +25,7 @@ import (
 	"log"
 
 	"github.com/chron-xie/zap"
-	"github.com/chron-xie/zapio"
+	"github.com/chron-xie/zap/zapio"
 )
 
 func ExampleWriter() {
