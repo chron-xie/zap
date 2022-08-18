@@ -29,7 +29,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.uber.org/zap/zapcore"
+	"github.com/chron-xie/zapcore"
 )
 
 func TestObjectsAndObjectValues(t *testing.T) {

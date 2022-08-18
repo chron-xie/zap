@@ -25,7 +25,7 @@ import (
 	"io"
 	"time"
 
-	"go.uber.org/zap/buffer"
+	"github.com/chron-xie/buffer"
 )
 
 // DefaultLineEnding defines the default line ending when writing logs.

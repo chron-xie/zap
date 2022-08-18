@@ -25,7 +25,7 @@ import (
 	"io"
 
 	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/chron-xie/zapcore"
 )
 
 // Writer is an io.Writer that writes to the provided Zap logger, splitting log

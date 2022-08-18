@@ -28,8 +28,8 @@ import (
 	"testing"
 
 	"go.uber.org/zap"
-	"go.uber.org/zap/internal/ztest"
-	"go.uber.org/zap/zapcore"
+	"github.com/chron-xie/internal/ztest"
+	"github.com/chron-xie/zapcore"
 
 	"github.com/stretchr/testify/assert"
 )

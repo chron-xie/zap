@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"go.uber.org/zap/internal/exit"
-	"go.uber.org/zap/internal/ztest"
+	"github.com/chron-xie/internal/exit"
+	"github.com/chron-xie/internal/ztest"
 
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest/observer"
+	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

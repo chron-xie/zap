@@ -30,7 +30,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	. "go.uber.org/zap/zapcore"
+	. "github.com/chron-xie/zapcore"
 )
 
 var (

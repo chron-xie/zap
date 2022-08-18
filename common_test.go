@@ -24,8 +24,8 @@ import (
 	"sync"
 	"testing"
 
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest/observer"
+	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zaptest/observer"
 )
 
 func opts(opts ...Option) []Option {

@@ -1,4 +1,4 @@
-module go.uber.org/zap/benchmarks
+module github.com/chron-xie/benchmarks
 
 go 1.17
 

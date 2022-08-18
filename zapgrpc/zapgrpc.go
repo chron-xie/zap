@@ -19,13 +19,13 @@
 // THE SOFTWARE.
 
 // Package zapgrpc provides a logger that is compatible with grpclog.
-package zapgrpc // import "go.uber.org/zap/zapgrpc"
+package zapgrpc // import "github.com/chron-xie/zapgrpc"
 
 import (
 	"fmt"
 
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/chron-xie/zap"
+	"github.com/chron-xie/zapcore"
 )
 
 // See https://github.com/grpc/grpc-go/blob/v1.35.0/grpclog/loggerv2.go#L77-L86

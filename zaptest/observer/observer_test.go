@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
-	. "go.uber.org/zap/zaptest/observer"
+	"github.com/chron-xie/zapcore"
+	. "github.com/chron-xie/zaptest/observer"
 )
 
 func assertEmpty(t testing.TB, logs *ObservedLogs) {

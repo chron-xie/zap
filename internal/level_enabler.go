@@ -20,7 +20,7 @@
 
 package internal
 
-import "go.uber.org/zap/zapcore"
+import "github.com/chron-xie/zapcore"
 
 // LeveledEnabler is an interface satisfied by LevelEnablers that are able to
 // report their own level.

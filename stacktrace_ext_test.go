@@ -31,7 +31,7 @@ import (
 	"testing"
 
 	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
+	"github.com/chron-xie/zapcore"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -43,7 +43,7 @@ import (
 // which includes filenames.
 var _zapPackages = []string{
 	"go.uber.org/zap.",
-	"go.uber.org/zap/zapcore.",
+	"github.com/chron-xie/zapcore.",
 }
 
 func TestStacktraceFiltersZapLog(t *testing.T) {

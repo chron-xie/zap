@@ -272,7 +272,7 @@ Enhancements:
 * [#577][]: Add a top-level alias for `zapcore.Field` to clean up GoDoc.
 
 Bugfixes:
-* [#574][]: Add a missing import comment to `go.uber.org/zap/buffer`.
+* [#574][]: Add a missing import comment to `github.com/chron-xie/buffer`.
 
 Thanks to @DiSiqueira and @djui for their contributions to this release.
 
