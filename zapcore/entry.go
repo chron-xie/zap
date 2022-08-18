@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"go.uber.org/multierr"
-	"github.com/chron-xie/internal/bufferpool"
-	"github.com/chron-xie/internal/exit"
+	"github.com/chron-xie/zap/internal/bufferpool"
+	"github.com/chron-xie/zap/internal/exit"
 )
 
 var (

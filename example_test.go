@@ -27,8 +27,8 @@ import (
 	"os"
 	"time"
 
-	"go.uber.org/zap"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 func Example_presets() {

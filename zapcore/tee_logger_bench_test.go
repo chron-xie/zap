@@ -23,8 +23,8 @@ package zapcore_test
 import (
 	"testing"
 
-	"github.com/chron-xie/internal/ztest"
-	. "github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/internal/ztest"
+	. "github.com/chron-xie/zap/zapcore"
 )
 
 func withBenchedTee(b *testing.B, f func(Core)) {

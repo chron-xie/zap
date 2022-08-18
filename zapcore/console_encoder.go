@@ -25,7 +25,7 @@ import (
 	"sync"
 
 	"github.com/chron-xie/buffer"
-	"github.com/chron-xie/internal/bufferpool"
+	"github.com/chron-xie/zap/internal/bufferpool"
 )
 
 var _sliceEncoderPool = sync.Pool{

@@ -23,7 +23,7 @@
 
 package zap
 
-import "github.com/chron-xie/zapcore"
+import "github.com/chron-xie/zap/zapcore"
 
 // Objects constructs a field with the given key, holding a list of the
 // provided objects that can be marshaled by Zap.

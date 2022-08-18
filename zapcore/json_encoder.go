@@ -28,7 +28,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/chron-xie/buffer"
-	"github.com/chron-xie/internal/bufferpool"
+	"github.com/chron-xie/zap/internal/bufferpool"
 )
 
 // For JSON-escaping; see jsonEncoder.safeAddString below.

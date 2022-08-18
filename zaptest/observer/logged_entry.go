@@ -20,7 +20,7 @@
 
 package observer
 
-import "github.com/chron-xie/zapcore"
+import "github.com/chron-xie/zap/zapcore"
 
 // An LoggedEntry is an encoding-agnostic representation of a log message.
 // Field availability is context dependant.

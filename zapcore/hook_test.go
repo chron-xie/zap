@@ -23,7 +23,7 @@ package zapcore_test
 import (
 	"testing"
 
-	. "github.com/chron-xie/zapcore"
+	. "github.com/chron-xie/zap/zapcore"
 	"github.com/chron-xie/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"

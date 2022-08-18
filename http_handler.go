@@ -27,7 +27,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // ServeHTTP is a simple JSON endpoint that can report on or change the current

@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.uber.org/zap"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap"
+	"github.com/chron-xie/zap/zapcore"
 	. "github.com/chron-xie/zaptest/observer"
 )
 

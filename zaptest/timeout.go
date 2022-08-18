@@ -23,7 +23,7 @@ package zaptest
 import (
 	"time"
 
-	"github.com/chron-xie/internal/ztest"
+	"github.com/chron-xie/zap/internal/ztest"
 )
 
 // Timeout scales the provided duration by $TEST_TIMEOUT_SCALE.

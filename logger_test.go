@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/chron-xie/internal/exit"
-	"github.com/chron-xie/internal/ztest"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/internal/exit"
+	"github.com/chron-xie/zap/internal/ztest"
+	"github.com/chron-xie/zap/zapcore"
 	"github.com/chron-xie/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
@@ -413,8 +413,8 @@ func TestLoggerAddCallerFunction(t *testing.T) {
 		},
 		{
 			options:         opts(AddCaller()),
-			loggerFunction:  "go.uber.org/zap.infoLog",
-			sugaredFunction: "go.uber.org/zap.infoLogSugared",
+			loggerFunction:  "github.com/chron-xie/zap.infoLog",
+			sugaredFunction: "github.com/chron-xie/zap.infoLogSugared",
 		},
 		{
 			options:         opts(AddCaller(), WithCaller(false)),
@@ -423,8 +423,8 @@ func TestLoggerAddCallerFunction(t *testing.T) {
 		},
 		{
 			options:         opts(WithCaller(true)),
-			loggerFunction:  "go.uber.org/zap.infoLog",
-			sugaredFunction: "go.uber.org/zap.infoLogSugared",
+			loggerFunction:  "github.com/chron-xie/zap.infoLog",
+			sugaredFunction: "github.com/chron-xie/zap.infoLogSugared",
 		},
 		{
 			options:         opts(WithCaller(true), WithCaller(false)),
@@ -433,13 +433,13 @@ func TestLoggerAddCallerFunction(t *testing.T) {
 		},
 		{
 			options:         opts(AddCaller(), AddCallerSkip(1), AddCallerSkip(-1)),
-			loggerFunction:  "go.uber.org/zap.infoLog",
-			sugaredFunction: "go.uber.org/zap.infoLogSugared",
+			loggerFunction:  "github.com/chron-xie/zap.infoLog",
+			sugaredFunction: "github.com/chron-xie/zap.infoLogSugared",
 		},
 		{
 			options:         opts(AddCaller(), AddCallerSkip(2)),
-			loggerFunction:  "go.uber.org/zap.withLogger",
-			sugaredFunction: "go.uber.org/zap.withLogger",
+			loggerFunction:  "github.com/chron-xie/zap.withLogger",
+			sugaredFunction: "github.com/chron-xie/zap.withLogger",
 		},
 		{
 			options:         opts(AddCaller(), AddCallerSkip(2), AddCallerSkip(3)),

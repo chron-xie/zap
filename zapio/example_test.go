@@ -24,7 +24,7 @@ import (
 	"io"
 	"log"
 
-	"go.uber.org/zap"
+	"github.com/chron-xie/zap"
 	"github.com/chron-xie/zapio"
 )
 

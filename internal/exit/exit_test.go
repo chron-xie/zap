@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/chron-xie/internal/exit"
+	"github.com/chron-xie/zap/internal/exit"
 )
 
 func TestStub(t *testing.T) {

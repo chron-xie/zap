@@ -20,7 +20,7 @@
 
 package zapcore
 
-import "github.com/chron-xie/internal/color"
+import "github.com/chron-xie/zap/internal/color"
 
 var (
 	_levelToColor = map[Level]color.Color{

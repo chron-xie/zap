@@ -23,9 +23,9 @@ package zap
 import (
 	"testing"
 
-	"github.com/chron-xie/internal/exit"
-	"github.com/chron-xie/internal/ztest"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/internal/exit"
+	"github.com/chron-xie/zap/internal/ztest"
+	"github.com/chron-xie/zap/zapcore"
 	"github.com/chron-xie/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"

@@ -25,7 +25,7 @@ import (
 	"fmt"
 
 	"github.com/chron-xie/zap"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // See https://github.com/grpc/grpc-go/blob/v1.35.0/grpclog/loggerv2.go#L77-L86
@@ -38,7 +38,7 @@ const (
 
 var (
 	// _grpcToZapLevel maps gRPC log levels to zap log levels.
-	// See https://pkg.go.dev/go.uber.org/zap@v1.16.0/zapcore#Level
+	// See https://pkg.go.dev/github.com/chron-xie/zap@v1.16.0/zapcore#Level
 	_grpcToZapLevel = map[int]zapcore.Level{
 		grpcLvlInfo:  zapcore.InfoLevel,
 		grpcLvlWarn:  zapcore.WarnLevel,

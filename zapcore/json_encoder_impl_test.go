@@ -30,7 +30,7 @@ import (
 	"testing/quick"
 	"time"
 
-	"github.com/chron-xie/internal/bufferpool"
+	"github.com/chron-xie/zap/internal/bufferpool"
 
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/multierr"

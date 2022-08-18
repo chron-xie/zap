@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // SamplingConfig sets a sampling strategy for the logger. Sampling caps the

@@ -26,8 +26,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chron-xie/internal/bufferpool"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/internal/bufferpool"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // A Logger provides fast, leveled, structured logging. All methods are safe

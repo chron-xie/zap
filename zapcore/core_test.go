@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chron-xie/internal/ztest"
-	. "github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/internal/ztest"
+	. "github.com/chron-xie/zap/zapcore"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

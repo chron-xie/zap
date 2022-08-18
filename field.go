@@ -25,7 +25,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // Field is an alias for Field. Aliasing this type dramatically

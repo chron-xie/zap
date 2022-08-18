@@ -23,7 +23,7 @@ package zap
 import (
 	"flag"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // LevelFlag uses the standard library's flag.Var to declare a global flag

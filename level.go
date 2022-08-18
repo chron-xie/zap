@@ -22,8 +22,8 @@ package zap
 
 import (
 	"go.uber.org/atomic"
-	"github.com/chron-xie/internal"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/internal"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 const (

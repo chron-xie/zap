@@ -23,7 +23,7 @@ package zap
 import (
 	"sync"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 var _errArrayElemPool = sync.Pool{New: func() interface{} {

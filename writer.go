@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 
 	"go.uber.org/multierr"
 )

@@ -1,4 +1,4 @@
-module go.uber.org/zap
+module github.com/chron-xie/zap
 
 go 1.18
 

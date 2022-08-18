@@ -23,7 +23,7 @@ package zap
 import (
 	"time"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // Array constructs a field with the given key and ArrayMarshaler. It provides

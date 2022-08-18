@@ -23,7 +23,7 @@ package zap
 import (
 	"fmt"
 
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/zapcore"
 
 	"go.uber.org/multierr"
 )

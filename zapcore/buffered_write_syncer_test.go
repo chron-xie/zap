@@ -27,7 +27,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/chron-xie/internal/ztest"
+	"github.com/chron-xie/zap/internal/ztest"
 )
 
 func TestBufferWriter(t *testing.T) {

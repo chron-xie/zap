@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/chron-xie/internal/ztest"
+	"github.com/chron-xie/zap/internal/ztest"
 )
 
 // Verify that the mock clock satisfies the Clock interface.

@@ -29,8 +29,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chron-xie/internal"
-	"github.com/chron-xie/zapcore"
+	"github.com/chron-xie/zap/internal"
+	"github.com/chron-xie/zap/zapcore"
 )
 
 // ObservedLogs is a concurrency-safe, ordered collection of observed logs.
